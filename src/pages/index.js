@@ -1,20 +1,23 @@
 import React from "react"
-import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-import Image from "../components/image"
 import SEO from "../components/seo"
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
+    <div style={{display: 'flex'}}>
+      <div>
+        <h1>RASCHIN FATEMI</h1>
+        <p>is the head of design at ACTIONIQ in new york, where she joined as the first employee in 2015.
+        She led design at Sailthru and designed a news app for WSJ. 
+        In 2011 she graduated from CCA MFA in an interaction design program in San Francisco and worked at Adobe Advanced Technology.
+        She made side projects in the purple bulldozer and some other RANDOM projects.</p>
+      </div>
+      <div>
+        
+      </div>
     </div>
-    <Link to="/page-2/">Go to page 2</Link>
   </Layout>
 )
 
