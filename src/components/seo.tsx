@@ -16,7 +16,7 @@ interface Props {
   title: string
 }
 
-const SEO = ({ description, lang, meta, title }: Props) => {
+const SEO: React.FC<Props> = ({ description }) => {
   const { site } = useStaticQuery(
     graphql`
       query {

@@ -6,7 +6,7 @@
  */
 
 import * as React from "react"
-import { useStaticQuery, graphql } from "gatsby"
+// import { useStaticQuery, graphql } from "gatsby"
 
 import Header from "./header"
 import "./layout.css"
@@ -15,7 +15,7 @@ export interface LayoutProps {
   children: React.ReactNode
 }
 
-const Layout = (props: LayoutProps) => {
+const Layout: React.FC<LayoutProps> = (props) => {
   // const data = useStaticQuery(graphql`
   //   query SiteTitleQuery {
   //     site {
