@@ -25,7 +25,7 @@ const Layout: React.FC<LayoutProps> = (props) => {
       <Header />
       <Container>
         <MainArea>{props.children}</MainArea>
-        <Sidebar/>
+        
       </Container>
     </>
   )
@@ -33,12 +33,15 @@ const Layout: React.FC<LayoutProps> = (props) => {
 
 const Container = styled.div`
   display: flex;
-  max-width: 960;
-  padding: 20px;
+  max-width: 960px;
+  padding-left:80px;
+  padding-top:120px;
+  width: 780px;
+
 `
 const MainArea = styled.div`
   flex: 1;
-  padding: 20px;
+
 `
 
 
