@@ -9,7 +9,7 @@ const IndexPage: React.FC = () => (
     <SEO title="Home" />
     <Title>Raschin Fatemi</Title>
     <Description>
-    I am a product designer and head of design at ActionIQ <a href="#1">[1]</a>. I enjoy the absurdity of turning abstract into palpable and back through design. Previously, I led product design at Sailthru [2]. I also worked with WSJ [3] and Adobe Advanced Technology labs [4]. I studied MFA in Interaction Design [5].
+    I am a product designer and head of design at ActionIQ <a href="#1">[1]</a>. I enjoy the perplexity of turning abstract into palpable and back through design. Previously, I led product design at Sailthru [2]. I also worked with WSJ [3] and Adobe Advanced Technology labs [4]. I studied MFA in Interaction Design [5].
     </Description>
     <FootnoteArea>
       <Footnote>
