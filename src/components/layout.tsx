@@ -34,9 +34,13 @@ const Layout: React.FC<LayoutProps> = (props) => {
 const Container = styled.div`
   display: flex;
   max-width: 960px;
-  padding-left:80px;
-  padding-top:120px;
-  width: 780px;
+  width: 100%;
+  padding: 30px;
+  @media (min-width: 768px) {
+    width: 780px;
+    padding-left:80px;
+    padding-top:120px;
+  }
 
 `
 const MainArea = styled.div`
