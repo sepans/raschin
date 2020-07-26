@@ -41,12 +41,12 @@ const Title = styled.h1 `
   color:black;
 `
 
-const Description = styled.h1 `
+const Description = styled.p`
   font-family: Inter;
-  font-size:24px;
-  font-weight:400;
-  line-height:1.4em;
-  color:black;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.4em;
+  color: black;
   margin-top: 40px;
 `
 
