@@ -9,11 +9,20 @@ const IndexPage: React.FC = () => (
     <SEO title="Home" />
     <Title>Raschin Fatemi</Title>
     <Description>
-    I am a product designer and head of design at ActionIQ <FootnoteLink href="#1">[1]</FootnoteLink>. I enjoy the perplexity of turning abstract into palpable and back through design. Previously, I led product design at Sailthru <FootnoteLink href="#2">[2]</FootnoteLink>. I also worked with WSJ <FootnoteLink href="#3">[3]</FootnoteLink> and Adobe Advanced Technology labs <FootnoteLink href="#4">[4]</FootnoteLink>. I studied MFA in Interaction Design <FootnoteLink href="#5">[5]</FootnoteLink>.
+    I am a product designer and head of design at ActionIQ <FootnoteLink href="#1">[1]</FootnoteLink>. I enjoy the perplexity of turning abstract into palpable and back through design. Previously, I led product design at Sailthru <FootnoteLink href="#2">[2]</FootnoteLink>. I also worked with WSJ <FootnoteLink href="#3">[3]</FootnoteLink> and Adobe Advanced Technology labs <FootnoteLink href="#4">[4]</FootnoteLink>. I studied MFA in Interaction Design <FootnoteLink href="#5">[5]</FootnoteLink> and BS in Industrial Design<FootnoteLink href="#6">[6]</FootnoteLink>.
     </Description>
     <FootnoteArea>
       <Footnote>
-      <a id="1"/>[1] I am a product designer and head of design at ActionIQ, a customer data platform that helps businesses engage with their customers in the modern world. I joined the company as the first hire, before the product-market fit and since then I designed processes to listen to our wide user base, design user interface for a variety of products for different jobs, build composable modular design systems to scale our product with complexity, design our workspace that aligns with our culture, design our visual design language and many more.
+      <a id="1"/>[1] ActionIQ, is a customer data platform that helps businesses engage with their customers in the modern world. I joined the company as the first hire, before the product-market fit and since then I learned a lot about <a href="https://medium.com/actioniq-tech/designing-for-enterprise-workflow-how-to-find-the-balance-between-flexibility-generalization-ddd7b5bf919a"  target="_blank" rel="noreferrer">Enterprise User Experience</a> and designed many different user experiences to drive and shape our product strategy. I established different design processes to incorporate user feedback into our product development and increase collaboration across design stakeholders and shaped our design culture. 
+        <div style={{marginTop: 10}}>More: </div>
+        <MoreList>
+          <MoreListItem><a href="https://www.figma.com/proto/cJ6fuHgB2CMO5b2rng3pCB/Design-Principles?node-id=252%3A3773&viewport=20%2C1114%2C0.08890990912914276&scaling=contain"   target="_blank" rel="noreferrer">AIQ Design Principles</a></MoreListItem>
+          <MoreListItem><a href="https://www.figma.com/file/vnqybgcYjyjurKbgg317NC/Design-Process?node-id=0%3A1"  target="_blank" rel="noreferrer">AIQ Design Processes</a></MoreListItem>
+          <MoreListItem><a href="https://www.figma.com/file/WFibLkwPMwbA9HWUqCWjUm/tshirts?node-id=260%3A600"  target="_blank" rel="noreferrer">Visual Language explorations</a></MoreListItem>
+          <MoreListItem><a href="https://www.figma.com/file/fo8rbEULyxI571ftQpOxJk/office?node-id=0%3A1"  target="_blank" rel="noreferrer">AIQ Office Design</a></MoreListItem>
+
+        </MoreList>
+
       </Footnote>
       <Footnote>
       <a id="2"/>[2] Previously, I lead product design at Sailthru, an email marketing platform where I designed many new products like a content editor for marketers to create personalized emails and data dashboards to monitor its performance. 
@@ -27,9 +36,24 @@ const IndexPage: React.FC = () => (
       <Footnote>
       <a id="5"/>[5] I studied MFA in Interaction Design at CCA. The program offered a variety of design skills to help students explore human-computer interaction in creative ways like how in future picture frames can show different pictures based on their arrangement on the wall or how they can navigate Wikipedia with their entire body or how people will wait for bus stops.       
       </Footnote>
+      <Footnote>
+      <a id="6"/>[6] I have always been fascinated with early 20th-century design and architecture movements, especially Bauhaus. Back then ‘Design’, unlike today’s UX design which is mostly about virtual and ephemeral ‘objects’, was about making solid and long-lasting physical things. But the shift in thinking about design is very relevant to today’s UX design. 
+      It was then that architects started emphasizing how consequential each design decision is on the people’s lifestyle. They started looking at ‘Design’ holistically in a broader sense including architecture, industrial design, textile design, and typography which all together determine the terrain of user’s possibilities. This human-centered approach led to stripping out ornamentation in favor of functionality and let the ‘form follow the function’.       
+      </Footnote>
     </FootnoteArea>
   </Layout>
 )
+
+const MoreList = styled.ul`
+  margin: 10px 20px;
+`
+
+const MoreListItem = styled.li`
+  margin: 5px;
+  a {
+    color: black;
+  }
+`
 
 const Title = styled.h1 `
   &::first-letter {

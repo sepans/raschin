@@ -8,7 +8,6 @@
 import * as React from "react"
 
 import Header from "./header"
-import Sidebar from "./sidebar"
 import "./layout.css"
 import styled from "styled-components"
 
@@ -41,7 +40,9 @@ const Container = styled.div`
     padding-left:80px;
     padding-top:120px;
   }
-
+  a {
+    color: black;
+  }
 `
 const MainArea = styled.div`
   flex: 1;
