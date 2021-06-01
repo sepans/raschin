@@ -12,12 +12,19 @@ const IndexPage: React.FC = () => (
     Head of design at ActionIQ <FootnoteLink href="#1">[1]</FootnoteLink>. Led product design at Sailthru <FootnoteLink href="#2">[2]</FootnoteLink>, WSJ <FootnoteLink href="#3">[3]</FootnoteLink> and Adobe Advanced Technology labs <FootnoteLink href="#4">[4]</FootnoteLink>. Studied MFA in Interaction Design & BFA in Industrial Design. <FootnoteLink href="#5">[5]</FootnoteLink>
     </Description>
     <Menu>
-      <MenuLink href="mailto:raschin+web@gmail.com">
+      <MenuLink href="https://www.goodreads.com/review/list/1475247?print=true&ref=nav_mybooks" target="_black">
+        GOODREADS
+      </MenuLink>/
+      <MenuLink href="https://medium.com/@purplebulldozer" target="_black">
+        MEDUIM
+      </MenuLink>/
+      <MenuLink href="mailto:raschin+web@gmail.com" target="_black">
         E-MAIL
       </MenuLink>/
-      <MenuLink>
+      <MenuLink href="https://twitter.com/Purplebulldozer" target="_black">
         TWITTER
       </MenuLink>
+      
 
     </Menu>
     <FootnoteArea>
@@ -97,7 +104,7 @@ const Menu = styled.div`
   font-family: Inter;
   letter-spacing: 8%;
   justify-content: space-between;
-  width: 40%;
+  width: 90%;
 `
 
 
