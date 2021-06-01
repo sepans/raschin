@@ -66,6 +66,9 @@ const MoreList = styled.ul`
   margin: 10px 20px;
   list-style: none;
   margin-left: 0;
+  font-size:16px;
+  font-weight:bold;
+  letter-spacing: 2.2px;
 `
 
 const MoreListItem = styled.li`
@@ -107,9 +110,8 @@ const Footnote = styled.p`
 const Menu = styled.div`
   display: flex;
   font-family: Inter;
-  letter-spacing: 8%;
+  letter-spacing: 2.2px;
   justify-content: space-between;
-  width: 90%;
 `
 
 
