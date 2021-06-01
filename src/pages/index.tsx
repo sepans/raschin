@@ -29,7 +29,7 @@ const IndexPage: React.FC = () => (
     </Menu>
     <FootnoteArea>
       <Footnote>
-      <a id="1"/>[1] ActionIQ is a customer data platform that helps businesses engage with their customers in the modern world. I was amongst the first five employees at the company and used design thinking to shape the culture.
+      <a id="1"/><sup>1</sup> ActionIQ is a customer data platform that helps businesses engage with their customers in the modern world. I was amongst the first five employees at the company and used design thinking to shape the culture.
         <div style={{marginTop: 40}}></div>
         <MoreList>
           <MoreListItem><a href="https://www.figma.com/proto/cJ6fuHgB2CMO5b2rng3pCB/Design-Principles?node-id=252%3A3773&viewport=20%2C1114%2C0.08890990912914276&scaling=contain"   target="_blank" rel="noreferrer">DESIGN PRINCIPLES</a></MoreListItem>
@@ -41,13 +41,13 @@ const IndexPage: React.FC = () => (
 
       </Footnote>
       <Footnote>
-      <a id="2"/>[2] Sailthru is an email marketing platform. I designed new products such as content editor, product catalogue and marketing performance dashboards. 
+      <a id="2"/><sup>2</sup> Sailthru is an email marketing platform. I designed new products such as content editor, product catalogue and marketing performance dashboards. 
       </Footnote>
       <Footnote>
-      <a id="3"/>[3] Collaborated with a small team of journalists, engineering & data scientist; I designed a tool for journalists to tell the news through data visualizations. 
+      <a id="3"/><sup>3</sup> Collaborated with a small team of journalists, engineering & data scientist; I designed a tool for journalists to tell the news through data visualizations. 
       </Footnote>
       <Footnote>
-      <a id="4"/>[4] I moved to New York in 2012. Before that I worked with adobe advanced technology labs in San Fransico. I collaborated with researchers and scientists and made testing prototypes to test product concepts from their research.
+      <a id="4"/><sup>4</sup> I moved to New York in 2012. Before that I worked with adobe advanced technology labs in San Fransico. I collaborated with researchers and scientists and made testing prototypes to test product concepts from their research.
         <div style={{marginTop: 40}}></div>
         <MoreList>
           <MoreListItem><a href="https://userexperienceawards.com/uxa2012/#adobe_photoshop" target="_blank" rel="noreferrer">UX SILVER PRIZE </a></MoreListItem>
@@ -57,7 +57,7 @@ const IndexPage: React.FC = () => (
         </MoreList>
       </Footnote>
       <Footnote>
-      <a id="5"/>[5] I studied MFA in Interaction Design at CCA. The program offered a variety of design skills like human computer interaction, visual design and critical thinking. 
+      <a id="5"/><sup>5</sup> I studied MFA in Interaction Design at CCA. The program offered a variety of design skills like human computer interaction, visual design and critical thinking. 
       <div style={{marginTop: 40}}></div>
         <MoreList>
          <MoreListItem><a href="https://www.figma.com/proto/CvIEZyvrlasUyUtlbMQ1Zw/remake?page-id=0%3A1&node-id=2%3A333&viewport=-350%2C1115%2C0.03924456983804703&scaling=scale-down-width&hotspot-hints=0&hide-ui=1"   target="_blank" rel="noreferrer">REMAKING</a></MoreListItem>
@@ -76,6 +76,7 @@ const MoreList = styled.ul`
   font-size:16px;
   font-weight:bold;
   letter-spacing: 2.2px;
+  text-indent:0;
 `
 
 const MoreListItem = styled.li`
@@ -112,6 +113,7 @@ const Footnote = styled.p`
   padding: 10px 0;
   line-height:1.6em;
   color:black;
+  text-indent: 40px;
 `
 
 const Menu = styled.div`
