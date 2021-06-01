@@ -41,16 +41,20 @@ const IndexPage: React.FC = () => (
 
       </Footnote>
       <Footnote>
-      <a id="2"/>[2] Sailthru is an email marketing platform. I designed new products such as content editor, product catlouge and data dashboards. 
+      <a id="2"/>[2] Sailthru is an email marketing platform. I designed new products such as content editor, product catalogue and marketing performance dashboards. 
       </Footnote>
       <Footnote>
-      <a id="3"/>[3] Collaborated with a small team of 2 journalist, 1 engineer, 1 data scientist as a design to design a platform for journalists to tell the news through data visualizations. 
+      <a id="3"/>[3] Collaborated with a small team of journalists, engineering & data scientist; I designed a tool for journalists to tell the news through data visualizations. 
       </Footnote>
       <Footnote>
-      <a id="4"/>[4] I moved to New York in 2012. Before that I worked with adobe advanced technology labs in San Fransico. I collaborated with researchers and scientists and made prototypes to create design concepts based on their research.
+      <a id="4"/>[4] I moved to New York in 2012. Before that I worked with adobe advanced technology labs in San Fransico. I collaborated with researchers and scientists and made testing prototypes to test product concepts from their research.
       </Footnote>
       <Footnote>
-      <a id="5"/>[5] I studied MFA in Interaction Design at CCA. The program offered a variety of design skills like human computer interaction, visual design and critical thinking.       
+      <a id="5"/>[5] I studied MFA in Interaction Design at CCA. The program offered a variety of design skills like human computer interaction, visual design and critical thinking. 
+      <div style={{marginTop: 40}}></div>
+        <MoreList>
+      <MoreListItem><a href="https://www.figma.com/proto/CvIEZyvrlasUyUtlbMQ1Zw/remake?page-id=0%3A1&node-id=2%3A333&viewport=-350%2C1115%2C0.03924456983804703&scaling=scale-down-width&hotspot-hints=0&hide-ui=1"   target="_blank" rel="noreferrer">REMAKING</a></MoreListItem>
+      </MoreList>      
       </Footnote>
       <Footnote>     
       </Footnote>
@@ -88,6 +92,7 @@ const Description = styled.p`
   line-height: 1.4em;
   color: black;
   margin-top: 40px;
+  margin-bottom: 40px;
 `
 
 
