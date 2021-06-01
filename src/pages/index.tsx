@@ -15,11 +15,11 @@ const IndexPage: React.FC = () => (
       <MenuLink href="https://www.goodreads.com/review/list/1475247?print=true&ref=nav_mybooks" target="_black">
         GOODREADS
       </MenuLink>/
+      <MenuLink href="https://www.strava.com/athletes/15491216" target="_black">
+        STRAVA
+      </MenuLink>/
       <MenuLink href="https://medium.com/@purplebulldozer" target="_black">
         MEDUIM
-      </MenuLink>/
-      <MenuLink href="mailto:raschin+web@gmail.com" target="_black">
-        E-MAIL
       </MenuLink>/
       <MenuLink href="https://twitter.com/Purplebulldozer" target="_black">
         TWITTER
@@ -48,12 +48,19 @@ const IndexPage: React.FC = () => (
       </Footnote>
       <Footnote>
       <a id="4"/>[4] I moved to New York in 2012. Before that I worked with adobe advanced technology labs in San Fransico. I collaborated with researchers and scientists and made testing prototypes to test product concepts from their research.
+        <div style={{marginTop: 40}}></div>
+        <MoreList>
+          <MoreListItem><a href="https://userexperienceawards.com/uxa2012/#adobe_photoshop" target="_blank" rel="noreferrer">UX SILVER PRIZE </a></MoreListItem>
+        </MoreList>
+        <MoreList>
+          <MoreListItem><a href="https://vimeo.com/41424338" target="_blank" rel="noreferrer">TUTORIAL PLAYER</a></MoreListItem>
+        </MoreList>
       </Footnote>
       <Footnote>
       <a id="5"/>[5] I studied MFA in Interaction Design at CCA. The program offered a variety of design skills like human computer interaction, visual design and critical thinking. 
       <div style={{marginTop: 40}}></div>
         <MoreList>
-      <MoreListItem><a href="https://www.figma.com/proto/CvIEZyvrlasUyUtlbMQ1Zw/remake?page-id=0%3A1&node-id=2%3A333&viewport=-350%2C1115%2C0.03924456983804703&scaling=scale-down-width&hotspot-hints=0&hide-ui=1"   target="_blank" rel="noreferrer">REMAKING</a></MoreListItem>
+         <MoreListItem><a href="https://www.figma.com/proto/CvIEZyvrlasUyUtlbMQ1Zw/remake?page-id=0%3A1&node-id=2%3A333&viewport=-350%2C1115%2C0.03924456983804703&scaling=scale-down-width&hotspot-hints=0&hide-ui=1"   target="_blank" rel="noreferrer">REMAKING</a></MoreListItem>
       </MoreList>      
       </Footnote>
       <Footnote>     
@@ -112,6 +119,7 @@ const Menu = styled.div`
   font-family: Inter;
   letter-spacing: 2.2px;
   justify-content: space-between;
+  font-size: 16px;
 `
 
 
