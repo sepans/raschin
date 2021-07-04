@@ -14,13 +14,13 @@ const IndexPage: React.FC = () => (
     <Menu>
       <MenuLink href="https://www.goodreads.com/review/list/1475247?print=true&ref=nav_mybooks" target="_black">
         GOODREADS
-      </MenuLink>/
+      </MenuLink>
       <MenuLink href="https://www.strava.com/athletes/15491216" target="_black">
         STRAVA
-      </MenuLink>/
+      </MenuLink>
       <MenuLink href="https://medium.com/@purplebulldozer" target="_black">
         MEDUIM
-      </MenuLink>/
+      </MenuLink>
       <MenuLink href="https://twitter.com/Purplebulldozer" target="_black">
         TWITTER
       </MenuLink>
@@ -74,9 +74,8 @@ const MoreList = styled.ul`
   list-style: none;
   margin-left: 0;
   font-size:16px;
-  font-weight:bold;
   letter-spacing: 2.2px;
-  text-indent:0;
+  text-indent: 40px;
 `
 
 const MoreListItem = styled.li`
@@ -122,6 +121,13 @@ const Menu = styled.div`
   letter-spacing: 2.2px;
   justify-content: space-between;
   font-size: 16px;
+  flex-direction: column;
+  line-height: 2em;
+
+  @media (min-width: 768px) {
+    flex-direction: row;
+    line-height: inherit;
+  } 
 `
 
 
@@ -133,7 +139,18 @@ const MenuLink = styled.a`
   }
   &:last-child {
     padding-left: 0;
+    &:after {
+      content: '';
+    }
   }
+
+  @media (min-width: 768px) {
+    &:after {
+      content: '/';
+      margin-left: 15px;
+
+    }
+  }  
 
 `
 
