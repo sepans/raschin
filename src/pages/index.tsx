@@ -12,7 +12,7 @@ const IndexPage: React.FC = () => (
     Head of design at ActionIQ <FootnoteLink href="#1">[1]</FootnoteLink>. Led product design at Sailthru <FootnoteLink href="#2">[2]</FootnoteLink>, WSJ <FootnoteLink href="#3">[3]</FootnoteLink> and Adobe <FootnoteLink href="#4">[4]</FootnoteLink>. Studied Interaction Design & Industrial Design. <FootnoteLink href="#5">[5]</FootnoteLink>
     </Description>
     <Menu>
-      <MenuLink href="https://www.goodreads.com/review/list/1475247?print=true&ref=nav_mybooks" target="_black">
+      <MenuLink href="https://www.goodreads.com/review/list/1475247-rashin-fatemi?page=1&ref=nav_mybooks&view=covers" target="_black">
         GOODREADS
       </MenuLink>
       <MenuLink href="https://www.strava.com/athletes/15491216" target="_black">
@@ -60,7 +60,7 @@ const IndexPage: React.FC = () => (
       <a id="5"/><sup>5</sup> I studied MFA in Interaction Design at CCA. The program offered a variety of design skills like human computer interaction, visual design and critical thinking. 
       <div style={{marginTop: 40}}></div>
         <MoreList>
-         <MoreListItem><a href="https://www.figma.com/proto/CvIEZyvrlasUyUtlbMQ1Zw/remake?page-id=0%3A1&node-id=2%3A333&viewport=-350%2C1115%2C0.03924456983804703&scaling=scale-down-width&hotspot-hints=0&hide-ui=1"   target="_blank" rel="noreferrer">REMAKING</a></MoreListItem>
+         <MoreListItem><a href="https://www.figma.com/proto/ZXI6nQfakCABXuIJpVAldx/remake?page-id=0%3A1&node-id=1%3A170&viewport=501%2C48%2C0.02&scaling=min-zoom&starting-point-node-id=1%3A170"   target="_blank" rel="noreferrer">REMAKING</a></MoreListItem>
       </MoreList>      
       </Footnote>
       <Footnote>     
