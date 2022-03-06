@@ -50,6 +50,7 @@ module.exports = {
       options: {
         fonts: [`Inter:400,700`],
       },
+      display: "block",
     },
     {
       resolve: `gatsby-plugin-google-analytics`,
