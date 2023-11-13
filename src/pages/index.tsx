@@ -19,7 +19,7 @@ const IndexPage: React.FC = () => (
         STRAVA
       </MenuLink>
       <MenuLink href="https://medium.com/@purplebulldozer" target="_black">
-        MEDUIM
+        MEDIUM
       </MenuLink>
       <MenuLink href="https://twitter.com/Purplebulldozer" target="_black">
         TWITTER
